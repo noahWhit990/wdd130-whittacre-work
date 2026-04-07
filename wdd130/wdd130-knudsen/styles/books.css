@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital,wght@0,400..700;1,400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+body{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Baskerville", serif;
+    font-size: 18px;
+    color: #8C3D01;
+    background-color: #ffeca7;
+    }
+header img{
+    width: 200px;
+    text-align: center;
+    }
+nav{
+    text-align: center;
+    display: flex;
+    justify-self: center;
+}
+h2{
+    font-size: 50px;
+    margin: 100px;
+}
+nav a{
+    text-decoration: none;
+    background-color: #8C3D01;
+    color: #face6d;
+    padding: 20px 100px;
+}
+nav a:hover{
+    background-color: #0f2743;
+}
+h3{
+    font-family: "EB Garamond";
+    font-size: 25px;
+    margin-bottom: -10px;
+}
+div{
+    padding: 80px 0px;
+    text-align: center;
+    margin: 0 auto;
+}
+.name{
+    width: 400px;
+    height: 100px;
+    padding: 0;
+    align-content: center;
+    background-color: #0f2743;
+    color: #face6d;
+}
+img{
+    width: 250px;
+}
+hr{
+    border: none;
+    height: 1px;
+    background-color: #8C3D01;
+}
+
+footer{
+    display: flex;
+}
+footer p{
+    padding: 50px 20px;
+}
