@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Luxurious+Roman&display=swap');
+/* #3DD6D0 #0D995E #962300 #513C2C #441E04 */
+main img {
+    width: 100%;
+    height: 100%;
+}
+
+#logo-img {
+    width: 100%;
+    height: 100%;
+    grid-row: 1 / 3;
+}
+
+h1 {
+    font-family: "Bruno Ace", sans-serif;
+    align-self: center;
+    justify-self: center;
+}
+
+section p {
+    font-family: "Luxurious Roman", "Courier New", Courier, monospace;
+    text-align: center;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    border: 8px solid #441e04;
+    background-color: #0d995e;
+}
+
+nav {
+    border-bottom: 8px solid #3dd6d0;
+    border-left: 8px solid #3dd6d0;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: "Luxurious Roman", "Courier New", Courier, monospace;
+    font-size: 1.75em;
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-decoration: none;
+}
+
+nav li {
+    display: flex;
+    height: 42px;
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+}
+
+nav li:hover {
+    color: #441e04;
+    text-shadow: 2px 2px black;
+    background: #3dd6d0;
+}
+
+body {
+    background: url(../images/background_img.png);
+    margin: 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding: 40px;
+}
+
+section a {
+    text-decoration: none;
+    color: #962300;
+    text-align: center;
+}
+
+section a:hover {
+    color: #441e04;
+}
+
+main section {
+    border: 10px solid #441e04;
+    background-color: gray;
+    width: 100%;
+    height: 100%;
+    justify-self: center;
+}
+
+footer {
+    display: grid;
+    border: 10px solid #441e04;
+    background-color: #0d995e;
+    justify-items: center;
+}
+
+h2 {
+    font-family: "Bruno Ace", sans-serif;
+}
+
+footer p {
+    width: 75%;
+    text-align: center;
+    font-family: "Luxurious Roman", "Courier New", Courier, monospace;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+}
+
+th, td {
+    border: 5px solid black;
+    border-radius: 5px;
+    background-color: #962300;
+    text-align: center;
+    font-family: "Luxurious Roman", "Courier New", Courier, monospace;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid #513c2c;
+    border-radius: 5px;
+    background-color: #962300;
+    align-items: center;
+    gap: none;
+}
+
+input[type=text], input[type=email] {
+    width: 70%;
+}
+
+input[type=submit] {
+    background-color: #0d995e;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    width: 40%;
+}
+
+input[type=submit]:hover {
+    background-color: #0dAF5e;
+}

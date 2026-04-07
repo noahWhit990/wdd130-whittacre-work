@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostles Spotlights</title>
+    <style>
+        #apostle-spotlight{
+            background: url(images/christus.webp);
+            font-family: Arial;
+            color: white;
+            border: 10px solid black;
+            border-radius: 50px;
+            display: block;
+        }
+
+        #apostle-spotlight img{
+            border: 5px solid white;
+            border-radius: 50%;
+            align-items: center;
+        }
+        
+        h1, h2{
+            text-align: center;
+        }
+
+        #first-presidency{
+            justify-self: center;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);  
+            gap: 30px; 
+            justify-items: center;
+            align-items: end;
+        }
+
+        #eyring-img{
+            width: 150px;
+            height: 150px;
+        }
+
+        #oaks-img{
+            width: 180px;
+            height: 180px;
+        }
+
+        #christofferson-img{
+            width: 150px;
+            height: 150px;
+        }
+
+        #twelve-apostles{
+            justify-self: center;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+            margin-bottom: 10px;
+        }
+
+        #twelve-apostles img{
+            width: 100px;
+            height: 100px;
+        }
+
+        #apostle-spotlight img:hover{
+            border-color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    <div id="apostle-spotlight">
+        <h1>First Presidency</h1>
+        <div id="first-presidency">
+            <img id="eyring-img" src="images/eyring.webp" alt="President Henry B. Eyring">
+            <img id="oaks-img" src="images/oaks.webp" alt="President Dallin H. Oaks">
+            <img id="christofferson-img" src="images/christofferson.webp" alt="President D. Todd Christofferson">
+        </div>
+        <h2>Quorom of the Twelve Apostles</h2>
+        <div id="twelve-apostles">
+            <img id="holland-img" src="images/holland.webp" alt="Elder Jeffrey R. Holland">
+            <img id="uchtdorf-img" src="images/uchtdorf.webp" alt="Elder Dieter F. Uchtdorf">
+            <img id="bednar-img" src="images/bednar.webp" alt="Elder David A. Bednar">
+            <img id="cook-img" src="images/cook.webp" alt="Elder Quentin L. Cook">
+            <img id="anderson-img" src="images/anderson.webp" alt="Elder Neil A. Anderson">
+            <img id="rasband-img" src="images/rasband.webp" alt="Elder Ronald A. Rasband">
+            <img id="stevenson-img" src="images/stevenson.webp" alt="Elder Gary E. Stevenson">
+            <img id="renlund-img" src="images/renlund.webp" alt="Elder Dale G. Renlund">
+            <img id="gong-img" src="images/gong.webp" alt="Elder Gerrit W. Gong">
+            <img id="soares-img" src="images/soares.webp" alt="Elder Ulisses Soares">
+            <img id="kearon-img" src="images/kearon.webp" alt="Elder Patrick Kearon">
+            <img id="causse-img" src="images/causse.webp" alt="Elder Gerald Causse">
+        </div>
+    </div>
+</body>
+</html>
