@@ -100,6 +100,15 @@ main section {
     justify-self: center;
 }
 
+#final-report {
+    grid-column: 1 / 3;
+}
+
+#final-report h2 {
+    color: #962300;
+    text-align: center;
+}
+
 footer {
     display: grid;
     border: 10px solid #441e04;
