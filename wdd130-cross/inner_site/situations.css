@@ -1,0 +1,92 @@
+body {
+    font-family: Georgia, serif;
+    margin: 50px;
+    padding: 0;
+}
+
+#wrapper {
+            border: 8px solid rgb(31, 31, 31);
+            border-radius: 10px;
+            margin: 50px auto;
+            padding: 0px 20px;
+            
+}
+
+header {
+    display: flex;
+    border-bottom: 2px solid;
+}
+.logo {
+    width: 200px;
+    border-right: 2px solid;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav a {
+    margin: 0 15px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    border-bottom: 2px solid;
+}
+
+main p {
+    width: 50%;
+    padding: 30px;
+    font-size: 1rem;
+    line-height: 1.7;
+    border-right: 2px solid;
+}
+
+.welcome-box {
+    width: 50%;
+    padding: 30px;
+    text-align: center;
+}
+main h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+main h2 {
+    font-size: 1rem;
+    font-weight: normal;
+    font-style: italic;
+}
+
+footer {
+    display: flex;
+    align-items: flex-start; 
+    flex-direction: column;  
+    padding: 15px;
+    border-top: 2px solid;
+}
+footer ul {
+    font-size: 1.1rem;
+    font-weight: normal;
+    line-height: 1.7;
+    padding: 0 200px
+}
+footer h2 {
+    display: flex;
+}
+
+
+
+
+
+
+

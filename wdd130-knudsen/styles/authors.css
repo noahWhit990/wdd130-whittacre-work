@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital,wght@0,400..700;1,400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+/* FFECA7	FACE6D	8C3D01	A89F87	0F2743 */
+
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    background-color: #8C3D01;
+    border: 5px solid #0f2743;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    align-items: center;
+}
+
+.logo-img {
+    height: 100px;
+    width: auto;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    padding: 0;
+}
+
+nav a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #face6d;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffeca7;
+}
+
+body {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Baskervville", serif;
+    font-size: 18px;
+    color: #8C3D01;
+    background-color: #ffeca7;
+}
+
+h3 {
+    font-family: "EB Garamond";
+    font-size: 25px;
+    margin-bottom: -10px;
+}
+
+div {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.name {
+    width: 400px;
+    height: 100px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #8C3D01;
+    border: 5px solid #0f2743;
+    border-radius: 10px;
+    color: #face6d;
+}
+
+.name h2, .name p {
+    margin: 5px 0;
+}
+
+img {
+    width: 250px;
+}
+
+footer {
+    display: grid;
+    background-color: #8C3D01;
+    grid-template-columns: 1fr 1fr;
+    border: 5px solid #0f2743;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+footer p {
+    color: #FACE6D;
+    max-height: 100px;
+}
+
+#left-foot {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 10px;
+    align-items: center;
+    justify-content: left;
+}
+
+#right-foot {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 10px;
+    text-align: right;
+}
